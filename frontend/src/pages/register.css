@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  height: 100vh;
+}
+
+.register-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.register-box h2 {
+  font-size: 22px;
+  margin-bottom: 5px;
+  color: #1877f2;
+}
+
+.register-box p {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.name-fields {
+  display: flex;
+  justify-content: space-between; 
+  gap: 10px; 
+  margin-bottom: 15px;
+}
+
+.name-fields .input-group {
+  flex: 1;                 
+  display: flex;
+  flex-direction: column; 
+  min-width: 0;            
+}
+
+.name-fields input {
+  width: 100%;             
+  box-sizing: border-box;  
+}
+
+
+/* input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+} */
+
+.create-btn {
+  width: 100%;
+  padding: 12px;
+  background: #1877f2;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.signin-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+.signin-text a {
+  color: #1877f2;
+  text-decoration: none;
+  font-weight: bold;
+}
